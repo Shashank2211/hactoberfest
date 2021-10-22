@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header class="container" id="headername">
+        <p>ToDo List</p>
+    </header>
+
+    <div class="mainbody" id="main">
+
+        <div class="innermain" id="inmain">
+            <div class="list" id="entry">
+
+                <label for="title" id="label1">
+                    <p>Title of the TASK</p>
+                </label>
+                <input type="text" name="titlename" id="title" style="font-size: 20px;width: 500px;">
+                
+                <!-- <label for="discribe" id="label2">
+                    <p>Description of the TASK</p>
+                </label>
+                <textarea name="discription" id="discribe" cols="30" rows="5"
+                    style="font-size: 20px;width: 500px;"></textarea> -->
+
+                <button id="click" onclick="addinlist()"><b>Add Task</b></button>
+                <button id="click_reset" onclick="reset()"><b>Reset</b></button>
+            </div>
+
+            <div id="listtitle">
+                <h3>List</h3>
+            </div>
+
+            <div id="todolist"></div>
+
+        </div>
+
+    </div>
+
+    <script src="todo.js"></script>
+
+</body>
+
+</html>
