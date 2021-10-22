@@ -1,0 +1,174 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+
+
+#headername
+{
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: coral;
+
+}
+
+#headername p
+{
+    padding: 10px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+#main
+{
+    background-color: rgb(131, 196, 192);
+    height: 2000px;
+    box-sizing: border-box;
+}
+
+
+#inmain
+{
+    background-color: rgb(21 56 72);
+    width: 60%;
+    margin: auto;
+    height: 2000px;
+    box-sizing: border-box;
+}
+
+label
+{
+    font-size: 30px;
+    color: #d4b70b;
+    display: block;
+    box-sizing: border-box;
+}
+
+#click:hover
+{
+    background-color: brown;
+    color: white;
+}
+
+
+
+#entry
+{
+    width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#label1
+{
+    margin: 15px 0px;
+}
+
+
+#label2
+{
+    margin: 20px 0px;
+}
+
+#click
+{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+
+#click_reset
+{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#click_reset:hover
+{
+    background-color: chocolate;
+    color: white;
+
+}
+
+
+#listtitle
+{
+    width: 300px;
+    margin: 50px auto;
+    font-size: 40px;
+    color: blue;
+}
+
+
+
+.todo
+{
+    border: 2px solid yellow;
+    width: 75%;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.task
+{
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+    display: inline-block;
+    color: black;
+}
+
+.submit 
+{
+    display: inline-block;
+    font-size: 15px;
+    /* float: right; */
+    padding: 5px;
+    margin: 5px;
+    margin-left: 110px;
+    background-color: green;
+    
+}
+
+.submit:hover
+{
+    color: white;
+}
+
+
+.describing 
+{
+    display: inline-block;
+    font-size: 15px;
+    /* float: right; */
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(233, 181, 40);
+}
+
+.describing:hover
+{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
